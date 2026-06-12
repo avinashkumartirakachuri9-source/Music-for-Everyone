@@ -1,0 +1,78 @@
+.border{
+    border: 2px solid red;
+}
+.flex{
+    display: flex;
+}
+.contentCenter{
+    justify-content: center;
+}
+.margin{
+    margin: 10px;
+}
+.invert{
+    filter: invert(1);
+}
+.alignCenter{
+    align-items: center;
+}
+/* All scrollbars */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8a8a8a;
+}
+.styleNone{
+    list-style: none;
+}
+.cards,
+.artistCards,
+.dummyCards,.trendMatter{
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE/Edge */
+}
+
+.cards::-webkit-scrollbar,
+.artistCards::-webkit-scrollbar,
+.dummyCards::-webkit-scrollbar,
+.trendMatter::-webkit-scrollbar{
+    display: none;              /* Chrome, Safari */
+}
+
+.leftArrow,
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.leftArrow{
+    left: 10px;
+}
+
+.rightArrow{
+    right: 10px;
+}

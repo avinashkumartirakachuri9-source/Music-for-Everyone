@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <input id="menuToggle" class="checkbox" type="checkbox">
+        <div class="top">
+            <div class="topLeft flex alignCenter">
+                <div class="img" class="invert">
+                    <img src="svgs/logo.svg" alt="">
+
+                    <label for="menuToggle" class="btn">
+                        <img src="svgs/threelines.svg" alt="">
+                    </label>
+
+                </div>
+                <div class="dummy  flex">
+                    <div class="img">
+                        <img src="svgs/home.svg" class="invert" alt="">
+                    </div>
+                    <div class="inputt" style="position: relative;">
+                        <div class="input1"><input style="color: white;" type="text"
+                                placeholder="What do you want to play?"></div>
+                        <div class="topinpuIcons invert">
+                            <img src="svgs/search.svg" alt="">
+                            <img src="svgs/input.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="topRight flex">
+                <div class="ulLeft flex">
+                    <ul class="flex">
+                        <li>Premium</li>
+                        <li>Support</li>
+                        <li>Download</li>
+                    </ul>
+                </div>
+                <div class="line flex">|</div>
+                <div class="ulRight flex">
+                    <ul class="flex">
+                        <li>Install App</li>
+                        <li>Sign up</li>
+                        <button>Login</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="midLeft">
+                <div class="yourLibrary flex " style="justify-content: space-between;">
+                    <h4>Your Library</h4>
+                    <div>
+                        <h5>
+                            <i class="fa-solid fa-plus"></i>
+                            Create
+                        </h5>
+                    </div>
+                </div>
+                <div class="createPlaylist">
+                    <div class="create">
+                        <div class="lines">
+                            <h4>Create your first playlist</h4>
+                        </div>
+                        <div class="lines">
+                            <h5>It's easy we'll help you</h5>
+                        </div>
+                        <div class="lines">Create playlist</div>
+                    </div>
+                    <div class="pod">
+                        <div class="lines">
+                            <h4>Lets do some podcasts to follow</h4>
+                        </div>
+                        <div class="lines">
+                            <h5>We’ll keep you updated on new episodes</h5>
+                        </div>
+                        <div class="lines">Browse podcasts</div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <ul class="styleNone">
+                        <li>Legal</li>
+                        <li>Safety&Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>About Ads</li>
+                        <li>Accessibility</li>
+                    </ul>
+                    <ul class="styleNone">
+                        <li>Cookies</li>
+                    </ul>
+                    <div class="lang">
+                        <i class="fa-solid fa-globe"></i>
+                        <h4>English</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="midRight">
+                <div class="trendingNow">
+                    <div class="trendMatter">
+                        <div class="trend">
+                            <h2 class="invert">Trending Now</h2>
+                            <p>Show all</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Mashooqa - From “Cocktail 2”</h4>
+                                    <a href="#">HarsiNusi</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/g4w3vr3jJB/w3vj4ljP3j/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Rai Rai Raa Raa- From “Peddi”</h4>
+                                    <div class="nameArtist">
+                                        <a>Anantha Sreeram</a>
+                                        <a>Ar Rahman</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/XzVWRyL3dq/VWRy41VO3d/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Boss Party- From “Waltair Veerayya”</h4>
+                                    <div class="nameArtist">
+                                        <a>Devi Sri Prasad</a>
+                                        <a>Nakash Aziz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/R7vKXr6Wmr/vKX642m0Wm/size_l_1656919117.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Ma Ma Mahesha- From “Sarkaru Vaari Paata”</h4>
+                                    <div class="nameArtist">
+                                        <a>S. Thaman</a>
+                                        <a>Nakash Aziz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/9En3peWXDV/En3pzdkEbX/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Nuvvu Nuvvu- From “Khadgam”</h4>
+                                    <div class="nameArtist">
+                                        <a>Sumangali</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/z8k3yd1Krx/8k3y201Wrx/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Uppenantha- Aarya2</h4>
+                                    <div class="nameArtist">
+                                        <a>K.K.</a>
+                                        <a>Devi Sri Prasad</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/g4w3vwrWjJ/w3vJYEYv3j/size_l_1773751840.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>23 Theme (From "Aa23")</h4>
+                                    <div class="nameArtist">
+                                        <a>Hector Salamanca</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/song/P7m3GvNKqx/m3GypjXEbq/size_l_1583846233.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Vaathi Coming (From "Master")</h4>
+                                    <div class="nameArtist">
+                                        <a>Gana Balachandar</a>
+                                        <a>Anirudh Ravichander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/zLp36PvbrG/Lp36J7PD3r/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>My Heart (From "Jalsa")</h4>
+                                    <div class="nameArtist">
+                                        <a>K.K.</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="artists">
+                        <div class="popular">
+                            <h2>Popular artists</h2>
+                            <p>Show all</p>
+                        </div>
+
+                        <div class="artistCards">
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/d/13/76/s-p-balasubrahmanyam_1769163033.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">S-P Balasubramanyam</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/6/94/57/p-susheela_1769162973.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">susheela</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/6/0d/84/arrahman_1500x1500_1625316915.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">Ar.Rahman</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/b/ad/db/719_1624534519.jpg" alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">Arjit Singh</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/3/ed/cd/prabhu-deva_1500x1500_1627024456.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">PrabhuDeva</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/5/67/56/chinmayi_1491457496.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">Chinmayi</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/d/25/05/sai-pallavi_1636113552.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">Sai-Pallavi</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+
+
+                            <div class="artist">
+                                <div class="artistImg">
+                                    <img src="https://s.saregama.tech/image/c/fh_150/a/78/da/nayanthara_1491457535.jpg"
+                                        alt="">
+                                </div>
+                                <div class="artistInfo">
+                                    <p class="name">Nayanthara</p>
+                                    <p class="rtist">Artist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendMatter">
+                        <div class="trend">
+                            <h2 class="invert">Popular albums and singles</h2>
+                            <p>Show all</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/XzVWRyL3dq/VWRy41VO3d/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Waltair Veerayya</h4>
+                                    <div class="nameArtist">
+                                        <a>Devi Sri Prasad</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/R7vKXr6Wmr/vKX642m0Wm/size_l_1656919117.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Sarkaru Vaari Paata</h4>
+                                    <div class="nameArtist">
+                                        <a>S. Thaman</a>
+                                        <a>Nakash Aziz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/zLp36v3rGe/p36JE7QN3r/size_l_1754129835.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>O.G</h4>
+                                    <div class="nameArtist">
+                                        <a>S. Thaman</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/10q3ZR1352/0q3ZwvmAW5/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Munna</h4>
+                                    <div class="nameArtist">
+                                        <a>Haricharan</a>
+                                        <a>Nakash Aziz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/9En3peWXDV/En3pzdkEbX/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Khadgam</h4>
+                                    <div class="nameArtist">
+                                        <a>Sumangali</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/z8k3yd1Krx/8k3y201Wrx/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Aarya2</h4>
+                                    <div class="nameArtist">
+                                        <a>K.K.</a>
+                                        <a>Devi Sri Prasad</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/g4w3vwrWjJ/w3vJYEYv3j/size_l_1773751840.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Aa23</h4>
+                                    <div class="nameArtist">
+                                        <a>Hector Salamanca</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/song/P7m3GvNKqx/m3GypjXEbq/size_l_1583846233.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Master</h4>
+                                    <div class="nameArtist">
+                                        <a>Gana Balachandar</a>
+                                        <a>Anirudh Ravichander</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://a10.gaanacdn.com/gn_img/albums/zLp36PvbrG/Lp36J7PD3r/size_l.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <h4>Jalsa</h4>
+                                    <div class="nameArtist">
+                                        <a>K.K.</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="trendMatter">
+                        <div class="trend">
+                            <h2 class="invert">Popular Radio</h2>
+                            <p>Show all</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Jeet Gannguli, Pritam, Shaarib Toshi and more</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Pritam, Roop Kumar Rathod, Gajendra Verma and more</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With A.R. Rahman, Atif Aslam, Shaan and more</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en-GB"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Vinod Rathod, Kumar Sanu, Udit Narayan and more</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Sidhu Moose Wala, AP Dhillon, Harrdy Sandhu and more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en-GB"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Unnikrishnan, Hariharan, Arijit Singh and more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">By Spotify</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Shubh, Prem Dhillon, Parmish Verma and more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Mukesh, Tabassum, Hemant Kumar and more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">With Anuradha Paudwal, Jatin-Lalit, Vinod Rathod and more</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="trendMatter">
+                        <div class="trend">
+                            <h2 class="invert">Feautured Charts</h2>
+                            <p>Show all</p>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">Your weekly update of the most played tracks right now - Global.</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">Your weekly update of the most played tracks right now - India.</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">Your daily update of the most played tracks right now - Global.</a>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_in_default.jpg"
+                                        alt="BlindingLights" title="BlindingLights">
+                                </div>
+                                <div class="matter">
+                                    <a href="#">Your daily update of the most played tracks right now - India.</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="footerline">
+                        <div class="realline"></div>
+                    </div>
+                    <div class="midFooter">
+                        <ul>
+                            <p>Company</p>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">For the Record</a></li>
+                        </ul>
+                        <ul>
+                            <p>Communities</p>
+                            <li><a href="">For Artists</a></li>
+                            <li><a href="">Developer</a></li>
+                            <li><a href="">Advertising</a></li>
+                            <li><a href="">Investor</a></li>
+                            <li><a href="">Vendors</a></li>
+                        </ul>
+                        <ul>
+                            <p>Useful links</p>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Free Mobile App</a></li>
+                            <li><a href="">Popular by Country</a></li>
+                            <li><a href="">Import your music</a></li>
+                        </ul>
+                        <ul>
+                            <p>Spotify Plans</p>
+                            <li><a href="">Premium Standard</a></li>
+                            <li><a href="">Premium Platinum</a></li>
+                            <li><a href="">Premium Student</a></li>
+                            <li><a href="">Spotify Free</a></li>
+                        </ul>
+                        <ul>
+                            <div class="footerIcons">
+                                <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footerline">
+                        <div class="realline"></div>
+                    </div>
+                    <div class="copyright">
+                        <div class="symbolMatter">
+                            © 2026 Spotify AB
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="preview">
+                <div class="previewd">Preview of Spotify</div>
+                <div class="matterd">Sign up to get unlimited songs and podcasts with occasional ads.No credit card
+                    needed.</div>
+            </div>
+            <div class="signUpforFree">
+                <button>Sign up for free</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
